@@ -1,0 +1,44 @@
+.navtop {
+  height: 80px;
+  background-color: black;
+  position: fixed;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  z-index: 100;
+}
+.navtop ul {
+  margin: 0;
+  padding: 20px;
+  display: inline-block;
+}
+.navtop li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+.navtop a {
+  text-decoration: none;
+  color: white !important;
+}
+.navtop .right {
+  position: absolute;
+  margin-top: -4px;
+  right: 0px;
+}
+#logout-button{
+  background-color: black!important;
+}
+.form-search input{
+  position: fixed;
+  top: 15px;
+  left: 35%;
+  border-radius: 25px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  width: 30%;
+  background-color: #2b2d2ef5;
+  color: #b0b3b8;
+  z-index: 150;
+}

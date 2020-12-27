@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+.main-content {
+  margin: 40px 90px;
+  color: white !important;
+  background-color: black;
+  margin-top: 80px;
+}
+.detail {
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 30px;
+  display: inline-block;
+  width: 45%;
+  margin-left: 41px;
+  box-sizing: border-box;
+}
+.comment {
+  margin-top: 50px;
+  padding: 30px;
+}
+.watch-now-btn {
+  background-color: red;
+}
+.add-to-list-btn {
+  background-color: #797979;
+}
+.rate-btn {
+  background-color: blue;
+}
+#rate-input {
+  width: 20px;
+}
+#post-watch video {
+  margin-bottom: 50px;
+}
+#post-watch video:focus {
+  outline: none;
+}
+#form-comment {
+  justify-content: space-between;
+
+}
+#form-comment input{
+  border-radius: 25px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  width: 96%;
+  background-color: #2b2d2ef5;
+  color: #b0b3b8;
+}
+#form-comment button{
+  width: 17%;
+  background-color: red;
+}
+.comment-wrapper{
+  background-color: #18191af0;
+  border-radius: 25px;
+  padding: 20px 30px ;
+  width: 55%;
+}
+.comment-container{
+    margin-top: 20px;
+  padding: 8px 20px;
+  border-radius: 25px;
+  background-color: #2b2d2ef5;
+  width: fit-content;
+}

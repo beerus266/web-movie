@@ -1,0 +1,28 @@
+.main-content {
+  margin: 40px 90px;
+  color: white !important;
+  background-color: black;
+  margin-top: 80px;
+}
+.thumbnail {
+  width: 20%;
+  height: 180px;
+  display: inline;
+  float: left;
+}
+.thumbnail img {
+  height: 100%;
+}
+.description {
+  display: inline-block;
+  width: 80%;
+}
+.watch-now-btn {
+  background-color: red;
+}
+.delete-from-list {
+  background-color: #797979;
+}
+.film-item{
+    margin-bottom: 70px;
+}

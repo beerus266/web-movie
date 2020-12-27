@@ -1,0 +1,33 @@
+.footer {
+  height: 200px;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.footer .column {
+  display: inline-table;
+  color: white;
+  width: 33%;
+  height: 100%;
+  text-align: center;
+}
+.link li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.link li a {
+  color: white;
+  text-decoration: none;
+}
+.footer-hr h1 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  line-height: 0.1em;
+  margin: 10px 0 50px;
+}
+.footer-hr h1 span {
+  background: rgb(0, 0, 0);
+  padding: 0 10px;
+}

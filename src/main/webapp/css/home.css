@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black !important;
+}
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  height: 600px;
+}
+
+.slideshow-container img {
+  height: 600px;
+}
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  height: 600px;
+}
+
+.fade .right {
+  position: absolute;
+  right: 0px;
+  color: white !important;
+  width: 630px;
+  background-image: linear-gradient(to left, #000000cc 45%, #00000000);
+  height: 100%;
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.fade .right button {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.cover1 {
+  background-image: url("../assets/images/img1.webp");
+  background-size: cover;
+}
+.cover2 {
+  background-size: cover;
+  background-image: url("../assets/images/img2.jpg");
+}
+.cover3 {
+  background-size: cover;
+  background-image: url("../assets/images/img3.jpg");
+}
+
+.main {
+  margin-top: 80px;
+}
+.film-name-banner {
+  font-size: 50px;
+}
+.watch-now-btn {
+  background-color: red;
+}
+.add-to-list-btn {
+  background-color: #797979;
+}
+.main-content {
+  margin: 40px 90px;
+  color: white !important;
+}
+.main-content hr {
+  width: 30%;
+  display: inline-block;
+}
+.main-content-header {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0px;
+}
+.main-content-header h1 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  line-height: 0.1em;
+  margin: 10px 0 50px;
+}
+.main-content-header h1 span {
+  background: rgb(0, 0, 0);
+  padding: 0 10px;
+}
+.line-cards {
+  width: 92%;
+  justify-content: space-between;
+  display: flex;
+  margin-bottom: 60px;
+  margin-left: 45px;
+}
+.line-cards .card {
+  width: 24%;
+  display: inline-block;
+  position: relative;
+}
+.line-cards .card img {
+  width: 100%;
+  height: 100%;
+}
+.line-cards .card .hover {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 2;
+  padding: 20px;
+  background-color: #000000b3;
+  height: 100%;
+}
