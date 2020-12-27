@@ -1,10 +1,9 @@
 package Model;
 
-public class Actor {
-    private int id;
-    private String Name;
-    private String Country;
-    private String Birthday;
+public class Actor extends Person {
+
+
+
     private int status;
 
     public int getId() {

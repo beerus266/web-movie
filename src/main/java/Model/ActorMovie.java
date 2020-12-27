@@ -1,8 +1,8 @@
 package Model;
 
-public class ActorMovie {
+public class ActorMovie  extends  Person{
 
-    private int id;
+  
     private int ActorId;
     private int MovieId;
     private int status;

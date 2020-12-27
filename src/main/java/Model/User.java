@@ -2,10 +2,9 @@ package Model;
 
 import java.util.Objects;
 
-public class User {
-    private int id;
-    private String Username;
+public class User extends Person {
     private String Password;
+    private String Username;
     private String Gmail;
     private String Phone;
     private String Avatar;
@@ -13,6 +12,7 @@ public class User {
     private int status;
 
     public User(int id, String username, String password, String gmail, String phone, String avatar, int role, int status) {
+
         this.id = id;
         Username = username;
         Password = password;
@@ -23,13 +23,13 @@ public class User {
         this.status = status;
     }
 
-    public int getId() {
-        return id;
-    }
+//    public int getId() {
+//        return id;
+//    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+//    public void setId(int id) {
+//        this.id = id;
+//    }
 
     public String getUsername() {
         return Username;
